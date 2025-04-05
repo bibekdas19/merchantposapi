@@ -4,7 +4,7 @@ import static io.restassured.RestAssured.baseURI;
 
 import com.google.gson.JsonObject;
 
-public class Qr {
+public class RequestCreate {
 	
 	public static String generateQrRequest(String token, String channel, String orderSubject, String amount ) throws Exception {
         baseURI = "https://merchant.moco.com.np/mpi";
